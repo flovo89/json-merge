@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Build folder
+build
+
+# VS code settings
+.vscode
+
+# Generated
+src/version.hpp

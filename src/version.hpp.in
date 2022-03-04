@@ -1,0 +1,15 @@
+#ifndef _MERGE_JSON_VERSION_HPP_
+#define _MERGE_JSON_VERSION_HPP_
+
+#include <string>
+
+namespace merge_json {
+
+static const int VERSION_MAJOR = @VERSION_MAJOR@;
+static const int VERSION_MINOR = @VERSION_MINOR@;
+static const int VERSION_BUGFIX = @VERSION_BUGFIX@;
+static const std::string VERSION_BUILD_TIME = "@COMPILE_DATE@";
+static const std::string GIT_HASH = "@GIT_HASH@";
+
+}  // namespace merge_json
+#endif 
