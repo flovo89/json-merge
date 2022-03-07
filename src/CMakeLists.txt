@@ -1,6 +1,9 @@
 # Common sources
 set(APP_SOURCES
-    reader/FileReader.cpp
+    file/FileReader.cpp
+    file/FileWriter.cpp
+    merger/IMerger.cpp
+    merger/NlohmannMerger.cpp
 )
 
 add_library(${APP_LIB_NAME} ${APP_SOURCES})
